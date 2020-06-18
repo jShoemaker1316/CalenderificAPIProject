@@ -11,7 +11,13 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+//API KEY for https://calendarific.com/account is: 0184ddc7ca8e47c679ff83030dc6d1bc873df587
+//API Documentation found here: https://calendarific.com/api-documentation
+//List of ISO 3166 Codes: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
+//provided list of supported Countries: https://calendarific.com/supported-countries
+//All requests to our API are supposed to be sent to this endpoint. Below you will find a list of endpoints that the API supports: https://calendarific.com/api/v2
+//The api_key should be appended to the url request like:  curl -G https://calendarific.com/api/v2/holidays?api_key=0184ddc7ca8e47c679ff83030dc6d1bc873df587
+//USE software called Rested. Build URL example: curl 'https://calendarific.com/api/v2/holidays?&api_key=0184ddc7ca8e47c679ff83030dc6d1bc873df587&country=US&year=2019' WHICH WE REPLACE API KEY
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

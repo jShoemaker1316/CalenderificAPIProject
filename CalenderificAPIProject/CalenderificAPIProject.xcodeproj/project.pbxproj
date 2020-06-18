@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10B2D694249A74C100059FC8 /* HolidaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2D693249A74C100059FC8 /* HolidaysTableViewController.swift */; };
+		10B2D696249A895A00059FC8 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2D695249A895A00059FC8 /* Holiday.swift */; };
+		10B2D698249ADCF300059FC8 /* HolidayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2D697249ADCF300059FC8 /* HolidayRequest.swift */; };
 		10D1E16E2499188F0091C7E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D1E16D2499188F0091C7E3 /* AppDelegate.swift */; };
 		10D1E1702499188F0091C7E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D1E16F2499188F0091C7E3 /* SceneDelegate.swift */; };
-		10D1E1722499188F0091C7E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D1E1712499188F0091C7E3 /* ViewController.swift */; };
 		10D1E1752499188F0091C7E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D1E1732499188F0091C7E3 /* Main.storyboard */; };
 		10D1E1772499189C0091C7E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D1E1762499189C0091C7E3 /* Assets.xcassets */; };
 		10D1E17A2499189C0091C7E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D1E1782499189C0091C7E3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10B2D693249A74C100059FC8 /* HolidaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysTableViewController.swift; sourceTree = "<group>"; };
+		10B2D695249A895A00059FC8 /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		10B2D697249ADCF300059FC8 /* HolidayRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayRequest.swift; sourceTree = "<group>"; };
 		10D1E16A2499188F0091C7E3 /* CalenderificAPIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalenderificAPIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D1E16D2499188F0091C7E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10D1E16F2499188F0091C7E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		10D1E1712499188F0091C7E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10D1E1742499188F0091C7E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10D1E1762499189C0091C7E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10D1E1792499189C0091C7E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +62,13 @@
 			children = (
 				10D1E16D2499188F0091C7E3 /* AppDelegate.swift */,
 				10D1E16F2499188F0091C7E3 /* SceneDelegate.swift */,
-				10D1E1712499188F0091C7E3 /* ViewController.swift */,
+				10B2D693249A74C100059FC8 /* HolidaysTableViewController.swift */,
+				10B2D695249A895A00059FC8 /* Holiday.swift */,
 				10D1E1732499188F0091C7E3 /* Main.storyboard */,
 				10D1E1762499189C0091C7E3 /* Assets.xcassets */,
 				10D1E1782499189C0091C7E3 /* LaunchScreen.storyboard */,
 				10D1E17B2499189C0091C7E3 /* Info.plist */,
+				10B2D697249ADCF300059FC8 /* HolidayRequest.swift */,
 			);
 			path = CalenderificAPIProject;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D1E1722499188F0091C7E3 /* ViewController.swift in Sources */,
+				10B2D694249A74C100059FC8 /* HolidaysTableViewController.swift in Sources */,
+				10B2D698249ADCF300059FC8 /* HolidayRequest.swift in Sources */,
 				10D1E16E2499188F0091C7E3 /* AppDelegate.swift in Sources */,
+				10B2D696249A895A00059FC8 /* Holiday.swift in Sources */,
 				10D1E1702499188F0091C7E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
